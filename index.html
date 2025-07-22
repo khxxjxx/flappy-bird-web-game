@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Game</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #222; }
+        canvas { background: #87ceeb; display: block; margin: 0 auto; border: 2px solid #333; }
+        h1 { color: #ffb300; text-align: center; }
+        #restart { display: block; margin: 10px auto; padding: 8px 24px; font-size: 16px; background: #ffb300; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Flappy Bird Game</h1>
+        <canvas id="game" width="400" height="600"></canvas>
+        <button id="restart">재시작</button>
+        <p style="color:#fff; text-align:center;">스페이스바 또는 클릭으로 점프!</p>
+    </div>
+    <script src="flappy.js"></script>
+</body>
+</html>
